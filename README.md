@@ -19,7 +19,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 | :------------ |:---------------:| :-----| :-----|
 | Gu Zhonghan | A0261825A | content-based recommendation, Fontend| e0983219@u.nus.edu |
 | Tang Yi | A1234567B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Cheng Pengweng | A1234567C | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
+| Cheng Pengweng | A0261632L | recommendation based on latent factors, Database| e0983026@u.nus.edu |
 | Wang Jiarui | A1234567D | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
 
 ---
