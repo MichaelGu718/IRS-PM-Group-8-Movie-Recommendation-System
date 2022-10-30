@@ -19,7 +19,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 | :------------ |:---------------:| :-----| :-----|
 | Gu Zhonghan | A0261825A | content-based recommendation, Fontend| e0983219@u.nus.edu |
 | Tang Yi | A0261851E | Back-end Development, Database| tangyi@u.nus.edu.com |
-| Cheng Pengwen | A0261632L | Recommendation based on latent factors, Database| e0983026@u.nus.edu |
+| Chen Pengwen | A0261632L | Recommendation based on latent factors, Database| e0983026@u.nus.edu |
 | Wang Jiarui | A0261860E | Statistics-based recommendation, Frontend| e0983254@u.nus.edu |
 
 ---
@@ -66,7 +66,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-`Refer to project report at Github Folder: ProjectReport`
+`Refer to project report at Github Folder: `Report`
 
 **Recommended Sections for Project Report / Paper:**
 - Executive Summary
@@ -91,7 +91,9 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 
 `Refer to Github Folder: Miscellaneous`
 > cover.jpeg: The cover of readme
-
+> MovieServer.jar: Backend package with all dependencies
+> data/dataset: dataset from MovieLens
+> data/mongoDB Collection: JSON files of mongoDB collections
 ---
 
 **This [Machine Reasoning (MR)](https://www.iss.nus.edu.sg/executive-education/course/detail/machine-reasoning "Machine Reasoning") course is part of the Analytics and Intelligent Systems and Graduate Certificate in [Intelligent Reasoning Systems (IRS)](https://www.iss.nus.edu.sg/stackable-certificate-programmes/intelligent-systems "Intelligent Reasoning Systems") series offered by [NUS-ISS](https://www.iss.nus.edu.sg "Institute of Systems Science, National University of Singapore").**
