@@ -34,14 +34,14 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 
 ## SECTION 5 : USER GUIDE
 
-`Refer to appendix <Installation & User Guide> in project report at Github Folder: `UserGuide`
+`Refer to appendix <Installation & User Guide> in project report at Github Folder: UserGuide`
 ### [ 1 ] URL
 > our website is deployeed on: <https://nus2.com/>
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-`Refer to project report at Github Folder: `Report`
+`Refer to project report at Github Folder: Report`
 
 **Recommended Sections for Project Report / Paper:**
 - Executive Summary
