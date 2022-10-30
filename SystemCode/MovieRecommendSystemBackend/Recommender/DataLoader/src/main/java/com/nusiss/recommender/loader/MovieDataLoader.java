@@ -91,7 +91,7 @@ public class MovieDataLoader {
 
     @Test
     public void updateAvgMovieList() throws IOException, InterruptedException {
-        String mongoUri = "mongodb://movieAdmin:nusiss123@nus2.com:37018";
+        String mongoUri = "mongodb://movieAdmin:{thepassword}@nus2.com:37018";
         MongoClientURI connStr = new MongoClientURI(mongoUri);
         MongoClient mongoClient = new MongoClient(connStr);
         MongoCollection<Document> movieCollection = mongoClient.getDatabase("movierecommender").getCollection("movie");
