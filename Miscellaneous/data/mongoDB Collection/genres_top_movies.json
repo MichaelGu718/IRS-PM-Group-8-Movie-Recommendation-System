@@ -1,0 +1,840 @@
+[{
+  "genres": "Mystery",
+  "recs": [
+    {
+      "movieId": 142444,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 147300,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 118894,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 179133,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 79897,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 42556,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136353,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 85295,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136355,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 76091,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "History",
+  "recs": [
+    {
+      "movieId": 152711,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 27373,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 179133,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 1759,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 6201,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 69860,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 70451,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 6818,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 64501,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 88448,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Drama",
+  "recs": [
+    {
+      "movieId": 148,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 496,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 67618,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 8911,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 113829,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 53,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 26350,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 25887,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 27373,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 33138,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Music",
+  "recs": [
+    {
+      "movieId": 8911,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 141718,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 7815,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 83969,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 138632,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 1310,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 3496,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 8580,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 5537,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 93008,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Documentary",
+  "recs": [
+    {
+      "movieId": 152711,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 84273,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 167064,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 44943,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 132333,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 187717,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 2824,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 7096,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 131724,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 172705,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Crime",
+  "recs": [
+    {
+      "movieId": 147300,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 876,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 626,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 147286,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 80124,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 59814,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 109241,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 26840,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 6086,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 173619,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Animation",
+  "recs": [
+    {
+      "movieId": 157775,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 118894,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 172583,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 138966,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 126921,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 159811,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 179133,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 175397,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 95311,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 146684,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Romance",
+  "recs": [
+    {
+      "movieId": 148,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 496,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 67618,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 8911,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 113829,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 25887,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 160644,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 114265,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 3795,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 626,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Tv",
+  "recs": [
+    {
+      "movieId": 27373,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136469,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 156025,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136359,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 158882,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 130970,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136445,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 77846,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 95175,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136447,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "War",
+  "recs": [
+    {
+      "movieId": 7122,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 140627,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 70451,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 147410,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 2972,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 6818,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 64501,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 64499,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 26073,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 126430,
+      "rating": "4.75"
+    }
+  ]
+},{
+  "genres": "Western",
+  "recs": [
+    {
+      "movieId": 3792,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 42556,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 128087,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 7218,
+      "rating": "4.5"
+    },
+    {
+      "movieId": 144976,
+      "rating": "4.5"
+    },
+    {
+      "movieId": 78620,
+      "rating": "4.5"
+    },
+    {
+      "movieId": 7614,
+      "rating": "4.5"
+    },
+    {
+      "movieId": 82857,
+      "rating": "4.5"
+    },
+    {
+      "movieId": 157108,
+      "rating": "4.5"
+    },
+    {
+      "movieId": 4406,
+      "rating": "4.4"
+    }
+  ]
+},{
+  "genres": "Comedy",
+  "recs": [
+    {
+      "movieId": 148,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 496,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 67618,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 150554,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 113829,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 142444,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 157775,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 5513,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 173963,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 25887,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Science",
+  "recs": [
+    {
+      "movieId": 146684,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 124851,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 6835,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 158027,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 120138,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 164367,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 4454,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 104780,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 94810,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 138632,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Action",
+  "recs": [
+    {
+      "movieId": 876,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 5490,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 138966,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 26401,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 109241,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 26840,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 27704,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 2196,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 115727,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 138632,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Horror",
+  "recs": [
+    {
+      "movieId": 142444,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 3941,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 141928,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 6835,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136834,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 3940,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 1349,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 164367,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 141718,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 69211,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Family",
+  "recs": [
+    {
+      "movieId": 150554,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 118894,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 126921,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 159811,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 175397,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 95311,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 146684,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 121781,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 172793,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 72692,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Thriller",
+  "recs": [
+    {
+      "movieId": 152711,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 26350,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 626,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 1759,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 59814,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136834,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 26840,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 27704,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 2196,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 6086,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Fantasy",
+  "recs": [
+    {
+      "movieId": 150554,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 118894,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 159811,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 172793,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 124851,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 42556,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136353,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 120130,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 85295,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 104780,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Adventure",
+  "recs": [
+    {
+      "movieId": 150554,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 147300,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 876,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 126921,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 146684,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 172793,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 124851,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 6835,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 175387,
+      "rating": "5.0"
+    },
+    {
+      "movieId": 136353,
+      "rating": "5.0"
+    }
+  ]
+},{
+  "genres": "Foreign",
+  "recs": []
+}]
