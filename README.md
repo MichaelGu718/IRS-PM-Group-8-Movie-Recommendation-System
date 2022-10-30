@@ -19,7 +19,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 | :------------ |:---------------:| :-----| :-----|
 | Gu Zhonghan | A0261825A | content-based recommendation, Fontend| e0983219@u.nus.edu |
 | Tang Yi | A0261851E | Back-end Development, Database| tangyi@u.nus.edu.com |
-| Cheng Pengweng | A0261632L | recommendation based on latent factors, Database| e0983026@u.nus.edu |
+| Cheng Pengwen | A0261632L | Recommendation based on latent factors, Database| e0983026@u.nus.edu |
 | Wang Jiarui | A0261860E | Statistics-based recommendation, Frontend| e0983254@u.nus.edu |
 
 ---
