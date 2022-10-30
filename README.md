@@ -25,11 +25,8 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 ---
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
-
-[![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
-
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
+### Video1: Business Pain & Value; Use Case Demo; Pricing;
+[![Movie Recommendation System](https://youtu.be/yOy4Pu0CSgU)](https://youtu.be/yOy4Pu0CSgU)
 
 ---
 
@@ -91,6 +88,7 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 ## SECTION 7 : MISCELLANEOUS
 
 `Refer to Github Folder: Miscellaneous`
+cover.jpeg: The cover of readme
 
 ---
 
