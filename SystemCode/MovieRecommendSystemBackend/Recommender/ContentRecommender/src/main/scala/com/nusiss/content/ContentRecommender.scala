@@ -33,7 +33,7 @@ object ContentRecommender {
   def main(args: Array[String]): Unit = {
     val config = Map(
       "spark.cores" -> "local[*]",
-      "mongo.uri" -> "mongodb://movieAdmin:nusiss123@nus2.com:37018",
+      "mongo.uri" -> "mongodb://movieAdmin:{thepassword}@nus2.com:37018",
       "mongo.db" -> "movierecommender"
     )
 
