@@ -34,7 +34,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 
 ## SECTION 5 : USER GUIDE
 
-`Refer to the <[userguide](https://github.com/MichaelGu718/IRS-PM-Group-8-Movie-Recommendation-System/blob/master/UserGuide/User%20Guide.pdf)> at Github Folder: UserGuide`
+`Refer to the < [userguide](https://github.com/MichaelGu718/IRS-PM-Group-8-Movie-Recommendation-System/blob/master/UserGuide/User%20Guide.pdf) > at Github Folder: UserGuide`
 ### [ 1 ] URL
 > our website is deployeed on: <https://nus2.com/>
 
