@@ -26,7 +26,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 ### Video1: Business Pain & Value; Use Case Demo; Pricing;
-[![Movie Recommendation System](https://youtu.be/yOy4Pu0CSgU)](https://youtu.be/yOy4Pu0CSgU)
+[![Movie Recommendation System](https://youtu.be/yOy4Pu0CSgU)](https://youtu.be/yOy4Pu0CSgU)]
 
 ---
 
@@ -88,7 +88,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 ## SECTION 7 : MISCELLANEOUS
 
 `Refer to Github Folder: Miscellaneous`
-cover.jpeg: The cover of readme
+> cover.jpeg: The cover of readme
 
 ---
 
