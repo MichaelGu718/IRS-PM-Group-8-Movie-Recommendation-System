@@ -17,7 +17,7 @@ object ALSTrainer {
   def main(args: Array[String]): Unit = {
     val config = Map(
       "spark.cores" -> "local[*]",
-      "mongo.uri" -> "mongodb://moiveAdmin:nusiss123@nus2.com:37018",
+      "mongo.uri" -> "mongodb://moiveAdmin:{thepassword}@nus2.com:37018",
       "mongo.db" -> "movierecommender"
     )
 
