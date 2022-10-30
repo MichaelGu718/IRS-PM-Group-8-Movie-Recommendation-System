@@ -1,0 +1,166 @@
+{
+  "type": "page",
+  "title": "MovieDetail",
+  "body": [
+    {
+      "type": "input-rating",
+      "visibleOn": "localStorage.getItem(\"username\") != null",
+      "id": "u:b9593986e7a8",
+      "label": "rating",
+      "name": "rating",
+      "allowClear": false,
+      "half": false,
+      "colors": {
+        "2": "#abadb1",
+        "3": "#787b81",
+        "5": "#ffa900"
+      },
+      "onEvent": {
+        "change": {
+          "weight": 0,
+          "actions": [
+            {
+              "args": {
+                "options": {
+                  "silent": false
+                },
+                "api": {
+                  "method": "post",
+                  "url": "/api/movie/rateMovie",
+                  "data": {
+                    "username": "${ls:username}",
+                    "movieId": "${movieId}",
+                    "rating": "${rating}"
+                  }
+                }
+              },
+              "outputVar": "responseResult",
+              "actionType": "ajax"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "property",
+      "id": "u:333a42fd2056",
+      "title": "",
+      "items": [
+        {
+          "span": 2,
+          "label": "Title",
+          "content": "${title}"
+        },
+        {
+          "span": 2,
+          "label": "Release",
+          "content": "${releaseYear}"
+        },
+        {
+          "span": 2,
+          "label": "Run Time",
+          "content": "${runtime}"
+        },
+        {
+          "span": 2,
+          "label": "Languages",
+          "content": "${languages}"
+        },
+        {
+          "span": 1,
+          "label": "Rating",
+          "content": "${avgRating|round:2}"
+        },
+        {
+          "span": 2,
+          "label": "Directors",
+          "content": "${directors}"
+        },
+        {
+          "span": 3,
+          "label": "genres",
+          "content": "${genres}"
+        },
+        {
+          "span": "3",
+          "label": "Cast",
+          "content": "${actors[0]}, ${actors[1]}, ${actors[2]}, ${actors[3]}, ${actors[4]}, ${actors[5]}..."
+        },
+        {
+          "span": 1,
+          "label": "Story",
+          "content": "${plotSummary}"
+        }
+      ],
+      "column": 2,
+      "mode": "table",
+      "visible": true
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "crud",
+      "syncLocation": false,
+      "api": "/api/movie/similarMovies/${movieId|default:1}",
+      "id": "u:c0b3f1501f06",
+      "perPageAvailable": [
+        10
+      ],
+      "messages": {
+      },
+      "card": {
+        "type": "card",
+        "header": {
+          "title": "$title",
+          "subTitle": "",
+          "avatar": "${posterPath}",
+          "className": "bg-white",
+          "description": "rating: ${avgRating|round:2}",
+          "avatarClassName": "pull-left thumb-md avatar b-3x m-r",
+          "desc": "release: ${releaseYear}\ndirector: ${directors}"
+        },
+        "body": [
+        ],
+        "actions": [
+          {
+            "label": "Detail",
+            "type": "button",
+            "id": "u:7553e8c0c83c",
+            "level": "info",
+            "actionType": "link",
+            "link": "/movieDetail/${movieId}",
+            "reload": "window"
+          }
+        ],
+        "id": "u:4a58baa0b7d1",
+        "imageClassName": "r",
+        "bodyClassName": "padder"
+      },
+      "mode": "cards",
+      "loadDataOnce": false,
+      "defaultParams": {
+        "perPage": 4
+      },
+      "switchPerPage": false,
+      "placeholder": "No Movie Info",
+      "columnsCount": 4,
+      "title": "Similar Movies"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "html",
+      "html": "<iframe width=\"560\" height=\"315\" src=\"${youtubeTrailerIds[0]}\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    },
+    {
+      "type": "images",
+      "id": "u:c1c65dc561bd",
+      "source": "${backdropPaths}",
+      "enlargeAble": true
+    }
+  ],
+  "id": "u:b5b8b8f07fde",
+  "initApi": "/api/movie/movieDetail/${params.movieId}"
+}

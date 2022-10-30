@@ -1,0 +1,38 @@
+{
+  "status": 0,
+  "msg": "",
+  "data": {
+    "pages": [
+      {
+        "label": "Home",
+        "url": "/",
+        "redirect": "/movieList"
+      },
+      {
+        "label": "MovieRecommender",
+        "children": [
+          {
+            "label": "MovieList",
+            "url": "/movieList",
+            "schemaApi": "get:/pages/movie-list.json"
+          },
+          {
+            "label": "MovieDetail",
+            "url": "/movieDetail/:movieId",
+            "schemaApi": "get:/pages/movie-detail.json"
+          },
+          {
+            "label": "MovieSearch",
+            "url": "/movieSearch",
+            "schemaApi": "get:/pages/movie-search.json"
+          },
+          {
+            "label": "PersonalInfo",
+            "url": "/personal",
+            "schemaApi": "get:/pages/personal.json"
+          }
+        ]
+      }
+    ]
+  }
+}

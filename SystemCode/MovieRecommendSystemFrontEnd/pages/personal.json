@@ -1,0 +1,228 @@
+{
+  "type": "page",
+  "title": "Personal",
+  "body": [
+    {
+      "type": "form",
+      "title": "Sign In",
+      "body": [
+        {
+          "label": "username",
+          "type": "input-text",
+          "name": "username",
+          "id": "u:90ab7fe24a7b"
+        },
+        {
+          "type": "input-password",
+          "label": "password",
+          "name": "password",
+          "id": "u:32b6c57cffdd",
+          "showCounter": false
+        },
+        {
+          "type": "submit",
+          "label": "Sign In"
+        },
+        {
+          "label": "Sign Up",
+          "type": "button",
+          "actionType": "ajax",
+          "api": {
+            "method": "POST",
+            "url": "/api/user/register",
+            "data": {
+              "username": "${username}",
+              "password": "${password}"
+            }
+          }
+        }
+      ],
+      "mode": "horizontal",
+      "api": {
+        "method": "post",
+        "url": "/api/user/login",
+        "data": {
+          "username": "${username}",
+          "password": "${password}"
+        },
+        "adaptor": "if (payload.code == 200) {\nlocalStorage.setItem(\"username\", payload.data.username);\nlocalStorage.setItem(\"token\", payload.data.token);\n\nlocalStorage.setItem(\"first\", payload.data.first);\n}\nreturn payload;"
+      },
+      "id": "u:caad827713df",
+      "visibleOn": "localStorage.getItem(\"username\") == null",
+      "name": "",
+      "debug": false,
+      "reload": "window"
+    },
+    {
+      "type": "card",
+      "header": {
+        "title": "Hello, ${ls:username}"
+      },
+      "id": "u:390451786213",
+      "visibleOn": "localStorage.getItem(\"username\") != null"
+    },
+    {
+      "label": "Sign Out",
+      "type": "button",
+      "onClick": "localStorage.clear() \n location.reload();",
+      "visibleOn": "localStorage.getItem(\"username\") != null"
+    },
+    {
+      "type": "form",
+      "initApi": {
+        "method": "get",
+        "url": "/api/user/userPrefGenreList?username=${ls:username}"
+      },
+      "visibleOn": "localStorage.getItem(\"username\") != null",
+      "title": " ",
+      "api": {
+        "method": "post",
+        "url": "/api/user/updatePrefGenres",
+        "data": {
+          "username": "${ls:username}",
+          "genres": "${genreList}"
+        }
+      },
+      "body": [
+        {
+          "name": "genreList",
+          "type": "select",
+          "placeholder": "Select your prefer genres",
+          "multiple": true,
+          "label": "Choose you prefer genres.",
+          "options": [
+            {
+              "label": "Action",
+              "value": "Action"
+            },
+            {
+              "label": "Adventure",
+              "value": "Adventure"
+            },
+            {
+              "label": "Animation",
+              "value": "Animation"
+            },
+            {
+              "label": "Comedy",
+              "value": "Comedy"
+            },
+            {
+              "label": "Crime",
+              "value": "Crime"
+            },
+            {
+              "label": "Documentary",
+              "value": "Documentary"
+            },
+            {
+              "label": "Drama",
+              "value": "Drama"
+            },
+            {
+              "label": "Family",
+              "value": "Family"
+            },
+            {
+              "label": "Fantasy",
+              "value": "Fantasy"
+            },
+            {
+              "label": "Foreign",
+              "value": "Foreign"
+            },
+            {
+              "label": "History",
+              "value": "History"
+            },
+            {
+              "label": "Horror",
+              "value": "Horror"
+            },
+            {
+              "label": "Music",
+              "value": "Music"
+            },
+            {
+              "label": "Mystery",
+              "value": "Mystery"
+            },
+            {
+              "label": "Romance",
+              "value": "Romance"
+            },
+            {
+              "label": "Science",
+              "value": "Science"
+            },
+            {
+              "label": "Tv",
+              "value": "Tv"
+            },
+            {
+              "label": "Thriller",
+              "value": "Thriller"
+            },
+            {
+              "label": "War",
+              "value": "War"
+            },
+            {
+              "label": "Western",
+              "value": "Western"
+            }
+          ]
+        },
+        {
+          "type": "submit",
+          "label": "Submit"
+        }
+      ],
+      "reload": "window"
+    },
+    {
+      "type": "html",
+      "html": "<b>Rating History</b>"
+    },
+    {
+      "type": "crud",
+      "name": "my_crud",
+      "api": "get:/api/user/ratingHistory?username=${ls:username}",
+      "columns": [
+        {
+          "name": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image",
+          "label": "Poster",
+          "name": "posterPath",
+          "enlargeAble": true,
+          "thumbMode": "cover"
+        },
+        {
+          "name": "yourRating",
+          "label": "Your Rating"
+        },
+        {
+          "name": "ratingTime",
+          "label": "Rating Time"
+        },
+        {
+          "type": "operation",
+          "label": " ",
+          "width": 100,
+          "buttons": [
+            {
+              "type": "button",
+              "label": "Detail",
+              "actionType": "link",
+              "link": "/movieDetail/${movieId}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "id": "u:9fec4333cb08"
+}

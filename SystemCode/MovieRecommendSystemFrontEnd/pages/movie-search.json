@@ -1,0 +1,69 @@
+{
+  "type": "page",
+  "body": [
+    {
+      "title": "Search Movies",
+      "type": "form",
+      "target": "my_crud",
+      "body": [
+        {
+          "type": "input-text",
+          "name": "keyword",
+          "label": "Keyword of movie title"
+        }
+      ],
+      "submitText": "Search"
+    },
+    {
+      "type": "crud",
+      "name": "my_crud",
+      "api": "get:/api/movie/searchMovies?keyword=${keyword}",
+      "columns": [
+        {
+          "name": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image",
+          "label": "Poster",
+          "name": "posterPath",
+          "enlargeAble": true,
+          "thumbMode": "cover"
+        },
+        {
+          "name": "releaseYear",
+          "label": "Release Year"
+        },
+        {
+          "name": "languages",
+          "label": "Language"
+        },
+        {
+          "name": "runtime",
+          "label": "Runtime"
+        },
+        {
+          "name": "directors[0]",
+          "label": "Director"
+        },
+        {
+          "name": "genres",
+          "label": "Genres"
+        },
+        {
+          "type": "operation",
+          "label": " ",
+          "width": 100,
+          "buttons": [
+            {
+              "type": "button",
+              "label": "Detail",
+              "actionType": "link",
+              "link": "/movieDetail/${movieId}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

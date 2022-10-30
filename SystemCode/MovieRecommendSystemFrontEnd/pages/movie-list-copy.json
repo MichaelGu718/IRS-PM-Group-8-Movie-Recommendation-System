@@ -1,0 +1,141 @@
+{
+  "type": "page",
+  "title": "Movies",
+  "body": [
+    {
+      "type": "tpl",
+      "tpl": "Top Popular",
+      "inline": false,
+      "id": "u:106b8fac870f",
+      "wrapperComponent": "h2"
+    },
+    {
+      "type": "crud",
+      "syncLocation": false,
+      "api": "/api/movie/topHotMovies/12",
+      "mode": "cards",
+      "defaultParams": {
+        "perPage": 6
+      },
+      "switchPerPage": false,
+      "placeholder": "没有用户信息",
+      "columnsCount": 4,
+      "card": {
+        "header": {
+          "className": "bg-white",
+          "title": "$title",
+          "subTitle": "release: $releaseYear",
+          "description": "rating: ${avgRating|round:2}",
+          "avatar": "https://image.tmdb.org/t/p/w185${posterPath}",
+          "avatarClassName": "pull-left thumb-md avatar b-3x m-r"
+        },
+        "bodyClassName": "padder",
+        "body": [
+        ],
+        "actions": [
+          {
+            "label": "Detail",
+            "type": "button",
+            "level": "info",
+            "actionType": "link",
+            "link": "/movieDetail/${movieId}"
+          }
+        ],
+        "type": "card",
+        "id": "u:7fe0d5057745"
+      },
+      "id": "u:ff6a60f4e322"
+    },
+    {
+      "type": "tpl",
+      "tpl": "Top Rating",
+      "inline": false,
+      "id": "u:3f279adc6ada",
+      "wrapperComponent": "h2"
+    },
+    {
+      "type": "crud",
+      "syncLocation": false,
+      "api": "/api/movie/topRatingMovies/12",
+      "mode": "cards",
+      "defaultParams": {
+        "perPage": 6
+      },
+      "switchPerPage": false,
+      "placeholder": "没有用户信息",
+      "columnsCount": 4,
+      "card": {
+        "header": {
+          "className": "bg-white",
+          "title": "$title",
+          "subTitle": "release: $releaseYear",
+          "description": "rating: ${avgRating|round:2}",
+          "avatar": "https://image.tmdb.org/t/p/w185${posterPath}",
+          "avatarClassName": "pull-left thumb-md avatar b-3x m-r"
+        },
+        "bodyClassName": "padder",
+        "body": [
+        ],
+        "actions": [
+        ],
+        "type": "card",
+        "id": "u:9d59f3803270"
+      },
+      "id": "u:8ed01e2fb8e3"
+    },
+    {
+      "type": "tpl",
+      "tpl": "Recommend For You",
+      "inline": false,
+      "id": "u:416326564bcd",
+      "wrapperComponent": "h2"
+    },
+    {
+      "type": "cards",
+      "data": {
+        "items": [
+          {
+            "a": 1,
+            "b": 2
+          },
+          {
+            "a": 3,
+            "b": 4
+          }
+        ]
+      },
+      "columnsCount": 8,
+      "card": {
+        "type": "card",
+        "className": "m-b-none",
+        "header": {
+          "title": "电影名",
+          "subTitle": "评分",
+          "avatar": "https://image.tmdb.org/t/p/w185/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+        },
+        "body": [
+        ],
+        "actions": [
+          {
+            "label": "Detail",
+            "type": "button",
+            "id": "u:2c29176ec56f"
+          }
+        ],
+        "id": "u:5880f7151559",
+        "imageClassName": "w-xs"
+      },
+      "id": "u:37e1ad42b46f",
+      "placeholder": "暂无数据",
+      "masonryLayout": false,
+      "itemClassName": ""
+    }
+  ],
+  "id": "u:49824ea5b612",
+  "asideResizor": false,
+  "pullRefresh": {
+    "disabled": true
+  },
+  "data": {
+  }
+}
