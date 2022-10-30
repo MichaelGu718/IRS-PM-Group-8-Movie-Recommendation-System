@@ -28,6 +28,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 ### Video1: Business Pain & Value; Use Case Demo; Pricing;
 [![Movie Recommendation System](https://i.ytimg.com/vi/yOy4Pu0CSgU/maxresdefault.jpg)](https://youtu.be/yOy4Pu0CSgU)
 ### Video2: System Design; Technical explanation of use cases;
+[![Movie Recommendation System](https://i.ytimg.com/vi/N0tPdXKvkhI/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLCP3rM7Q9LZp6fyXScmcvKnXfkFMw)](https://youtu.be/N0tPdXKvkhI)
 
 ---
 
