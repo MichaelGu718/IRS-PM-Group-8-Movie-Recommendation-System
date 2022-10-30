@@ -18,7 +18,7 @@ This system uses crawler to crawl movie data on movie websites, and combines col
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
 | Gu Zhonghan | A0261825A | content-based recommendation, Fontend| e0983219@u.nus.edu |
-| Tang Yi | A1234567B | Back-end Development, Database| A0261851E@gmail.com |
+| Tang Yi | A1234567B | Back-end Development, Database| tangyi@u.nus.edu.com |
 | Cheng Pengweng | A0261632L | recommendation based on latent factors, Database| e0983026@u.nus.edu |
 | Wang Jiarui | A1234567D | Statistics-based recommendation, Frontend| e0983254@u.nus.edu |
 
